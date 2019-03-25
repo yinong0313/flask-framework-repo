@@ -3,6 +3,7 @@ bokeh
 dill
 flask
 flask-wtf
+matplotlib
 jinja2
 pip
 simplejson
