@@ -1,6 +1,3 @@
-pandas
-bokeh
-dill
 flask
 flask-wtf
 matplotlib
