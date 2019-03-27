@@ -24,7 +24,7 @@ class InfoForm(FlaskForm):
     #User defined sticker and date
     sticker = StringField('Please type a stock sticker',validators=[DataRequired()],render_kw={"placeholder": "NOVA"})
     year = RadioField('Please choose a year', choices=[('2018','2018'),('2017','2017'),('2016','2016')])
-    month = StringField('Please enter a month',render_kw={"placeholder": "03"})
+    month = StringField('Please enter a month',render_kw={"placeholder": "3"})
     submit = SubmitField('Submit')
 
 @app.route('/', methods=['GET', 'POST'])
